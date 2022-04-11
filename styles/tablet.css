@@ -1,0 +1,21 @@
+main{
+    padding: 0 15px;
+}
+.main-index--first-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.video-container{
+    align-items: center;
+    width: 100%;
+}
+.video-container iframe{
+    width: max(400px, 70%);
+}
+.second-section-cards-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+    justify-content:center;
+}
+
+

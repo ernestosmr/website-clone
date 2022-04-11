@@ -1,0 +1,22 @@
+.third-fourth-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+.card-third{
+    grid-template-columns: 20% 80%;
+    padding: 3rem 0;
+}
+
+@media (min-width: 1000px) {
+    .second-section-cards-container{
+        justify-content: space-between;
+    }
+}
+@media (min-width: 1100px){
+    .index-header-container{
+        border: none;
+        height: 10rem;
+    }
+}
